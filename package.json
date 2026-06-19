@@ -11,8 +11,11 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "prettier": "^3.8.4",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
@@ -35,9 +38,9 @@
     "vite": "^8.0.12"
   },
   "lint-staged": {
-  "src/**/*.{js,jsx,ts,tsx}": [
-    "eslint --fix",
-    "prettier --write"
-  ]
-}
+    "src/**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
 }
